@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between; /* Centraliza o conteúdo verticalmente */
+    align-items: center; /* Alinha o conteúdo horizontalmente */
+    width: 100%;
+    height: 60px; /* A altura do header ocupará toda a altura da tela */
+    padding: 40px 100px;
+    z-index: 1000;
+}
+
+.logo{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    
+    width: 236px;
+    height: 53px;
+}
+
+.navigation-header{
+    display: flex;
+    gap: 50px;
+    color: #521D16;
+    margin: 250px;
+    font-size: 25px;
+    font-family:  "Inter", sans-serif;
+    font-weight: bold;
+    white-space: nowrap;
+    
+}
+.name{
+    cursor: pointer;
+}

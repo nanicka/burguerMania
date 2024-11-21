@@ -1,0 +1,11 @@
+button{
+    padding: 10px;
+    border: 1px solid #ed1800;
+    cursor: pointer;
+    font-size: 23px;
+    font-family:  "Inter", sans-serif;
+    font-weight: bold;
+    width: 256px;
+    height: 66px;
+}
+

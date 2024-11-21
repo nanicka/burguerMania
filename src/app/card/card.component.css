@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 335px;
+    width: 336px;
+
+}
+
+.title{
+    font-size: 30px;
+    color: #521D16;
+    font-family:  "Inter", sans-serif;
+}
